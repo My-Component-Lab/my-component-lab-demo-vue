@@ -1,4 +1,4 @@
-# My Component Lab Demo
+# My Component Lab Demo (Vue)
 This template should help get you started developing with *My Component Lab*
 
 ## Project Setup
