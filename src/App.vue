@@ -3,17 +3,11 @@
     <h1>My Component Lab Demo</h1>
     <div class="components-container">
         <div class="buttons-container">
-            <MButton config-name="primaryButtonOne">Button</MButton>
-            <MButton config-name="primaryButtonTwo">Button</MButton>
-            <MButton config-name="primaryButtonThree">Button</MButton>
-            <MButton config-name="primaryButtonFour">Button</MButton>
-        </div>
-
-        <div class="buttons-container">
-            <MButton config-name="secondaryButton">Button</MButton>
-            <MButton config-name="secondaryButtonTwo">Button</MButton>
-            <MButton config-name="secondaryButtonThree">Button</MButton>
-            <MButton config-name="secondaryButtonFour">Button</MButton>
+            <MButton config-name="primaryBtnSmall">button text</MButton>
+            <MButton config-name="primaryBtnMedium">button text</MButton>
+            <MButton config-name="primaryBtnLarge">button text</MButton>
+            <MButton config-name="primaryBtnXL">button text</MButton>
+            <MButton config-name="primaryBtnXL">button text</MButton>
         </div>
     </div>
 </MConfigProvider>
