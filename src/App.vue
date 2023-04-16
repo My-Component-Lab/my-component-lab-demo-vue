@@ -7,7 +7,7 @@
             <MButton config-name="primaryBtnMedium">button text</MButton>
             <MButton config-name="primaryBtnLarge">button text</MButton>
             <MButton config-name="primaryBtnXL">button text</MButton>
-            <MButton config-name="primaryBtnXL">button text</MButton>
+            <MButton config-name="primaryBtnXXL">button text</MButton>
         </div>
     </div>
 </MConfigProvider>
@@ -44,10 +44,15 @@ h1 {
     margin: auto;
 }
 .buttons-container {
+    align-items: flex-start;
     display: flex;
     justify-content: center;
     width: 100%;
     margin-bottom: 20px;
     gap: 20px;
+}
+
+button {
+    display: block;
 }
 </style>
