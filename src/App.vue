@@ -16,13 +16,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { MConfigProvider, MButton, MInput } from "my-component-lab";
+import { MConfigProvider, MButton } from "my-component-lab";
 import schemas from "../my-component-schema.config.json";
 export default defineComponent({
     components: {
         MConfigProvider,
         MButton,
-        MInput,
     },
     setup() {
         return {
